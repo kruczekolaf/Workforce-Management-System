@@ -1,6 +1,6 @@
 function delete_from_analysis() {
 
-  const analysis_spreadsheet = SpreadsheetApp.openById("15zWq6frkb-ghUprdpDoKsAjmvpCkRv3rQKngO4jPrH4");
+  const analysis_spreadsheet = SpreadsheetApp.openById("YOUR_ANALYSIS_SPREADSHEET_ID");
   const data_sheet = analysis_spreadsheet.getSheetByName("Data");
 
   const scriptProperties = PropertiesService.getScriptProperties();
