@@ -1,6 +1,6 @@
 function enter_holidays() {
   
-  const spreadsheet = SpreadsheetApp.openById("15zWq6frkb-ghUprdpDoKsAjmvpCkRv3rQKngO4jPrH4");
+  const spreadsheet = SpreadsheetApp.openById("YOUR_ANALYSIS_SPREADSHEET_ID");
   const analysis_sheet = spreadsheet.getSheetByName("Analysis");
   const holiday_sheet = spreadsheet.getSheetByName("Holidays");
 
