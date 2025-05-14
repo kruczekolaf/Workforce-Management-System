@@ -24,7 +24,7 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 │ │   └── [verschiedene Skriptdateien]
 │ └── Late Shifts.xlsx
 ├── img/
-│   └── [verschiedene Bilddateien]
+│     └── [verschiedene Bilddateien]
 └── README.md
 ```
 
