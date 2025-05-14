@@ -1,7 +1,7 @@
 function delete_employee(){
   const ui = SpreadsheetApp.getUi();
 
-  const source_sheet = SpreadsheetApp.openById("1qvOVi5Jk86jJyvtUq4Nh0UBAo0ToaC-Zr-qk780atnw");
+  const source_sheet = SpreadsheetApp.openById("YOUR_WORKAREAS_SPREADSHEET_ID");
   const delete_employee_sheet = source_sheet.getSheetByName("Delete Employee");
 
   const employee = delete_employee_sheet.getRange("A3").getValue();
