@@ -1,5 +1,5 @@
 function delete_from_working_areas() {
-  const working_areas_spreadsheet = SpreadsheetApp.openById("1qvOVi5Jk86jJyvtUq4Nh0UBAo0ToaC-Zr-qk780atnw");
+  const working_areas_spreadsheet = SpreadsheetApp.openById("YOUR_WORKAREAS_SPREADSHEET_ID");
   const working_areas_sheet = working_areas_spreadsheet.getSheetByName("Areas");
 
   const scriptProperties = PropertiesService.getScriptProperties();
