@@ -1,6 +1,6 @@
 function enter_late_shifts() {
   
-  const spreadsheet = SpreadsheetApp.openById("15zWq6frkb-ghUprdpDoKsAjmvpCkRv3rQKngO4jPrH4");
+  const spreadsheet = SpreadsheetApp.openById("YOUR_ANALYSIS_SPREADSHEET_ID");
   const analysis_sheet = spreadsheet.getSheetByName("Analysis");
   const late_shift_sheet = spreadsheet.getSheetByName("Late Shifts");
 
