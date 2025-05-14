@@ -5,7 +5,7 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 ---
 
 ## 📁 Projektstruktur
-
+```
 ├── Work_Areas/
 │ ├── Work_Areas_Scripts.gs
 │ └── work_areas.xlsx
@@ -19,7 +19,7 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 │ ├── Late_Shifts_Scripts.gs
 │ └── late_shifts.xlsx
 └── README.md
-
+```
 
 ---
 
