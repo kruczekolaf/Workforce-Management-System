@@ -8,8 +8,8 @@ function lateshifts_year() {
   );
   if (confirm !== ui.Button.YES) return;
 
-  const source_sheetId = "15zWq6frkb-ghUprdpDoKsAjmvpCkRv3rQKngO4jPrH4";
-  const target_sheet_id = "1QOCfPM3WSUStDEt8qlLdVzG2cTUVEynzMnDYNDIzwvI";
+  const source_sheetId = "YOUR_ANALYSIS_SPREADSHEET_ID";
+  const target_sheet_id = "YOUR_LATESHIFTS_SPREADSHEET_ID";
 
   const source_sheet = SpreadsheetApp.openById(source_sheetId).getSheetByName("Late Shifts");
   const targetSpreadsheet = SpreadsheetApp.openById(target_sheet_id);
