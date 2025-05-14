@@ -77,8 +77,10 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 ## 📷 Vorschau
 
 ![Screenshot der Work Areas Tabelle](img/Work Area.JPG)
+
 ![Screenshot der Analysis Tabelle](img/Analysis.JPG)
-![Screenshot der Scheduling Tabelle](img/Scheduling.JPG)
+
+![Screenshot der Scheduling Tabelle](img/Scheduling.jpg)
 
 ---
 
