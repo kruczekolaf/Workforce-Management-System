@@ -1,5 +1,5 @@
 function trail_countdown() {
-  var source_sheet = SpreadsheetApp.openById("1qvOVi5Jk86jJyvtUq4Nh0UBAo0ToaC-Zr-qk780atnw");
+  var source_sheet = SpreadsheetApp.openById("YOUR_WORKAREAS_SPREADSHEET_ID");
   const areas_sheet = source_sheet.getSheetByName("Areas");
 
   let empty_cell = null;
