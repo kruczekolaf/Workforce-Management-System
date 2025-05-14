@@ -76,9 +76,9 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 
 ## 📷 Vorschau
 
-Hier kannst du Screenshots oder Bilder deiner Tabellen und deren Nutzung einfügen, um das Portfolio visuell ansprechender zu gestalten. Zum Beispiel:
-
-![Screenshot der Work Areas Tabelle](https://link-zu-deinem-screenshot.com)
+![Screenshot der Work Areas Tabelle](img/Work Area.JPG)
+![Screenshot der Analysis Tabelle](img/Analysis.JPG)
+![Screenshot der Scheduling Tabelle](img/Scheduling.JPG)
 
 ---
 
