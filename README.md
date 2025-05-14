@@ -23,6 +23,8 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 │ ├── Scripts/
 │ │   └── [verschiedene Skriptdateien]
 │ └── Late Shifts.xlsx
+├── img/
+│   └── [verschiedene Bilddateien]
 └── README.md
 ```
 
