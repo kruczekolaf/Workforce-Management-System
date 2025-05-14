@@ -1,6 +1,6 @@
 function add_to_late_shifts() {
 
-  const late_shifts_spreadsheet = SpreadsheetApp.openById("1QOCfPM3WSUStDEt8qlLdVzG2cTUVEynzMnDYNDIzwvI");
+  const late_shifts_spreadsheet = SpreadsheetApp.openById("YOUR_LATESHIFTS_SPREADSHEET_ID");
   const late_shifts_sheet = late_shifts_spreadsheet.getSheetByName("Late Shifts Year");
 
   const scriptProperties = PropertiesService.getScriptProperties();
