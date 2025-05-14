@@ -1,6 +1,6 @@
 function add_holiday_target() {
 
-  const analysis_spreadsheet = SpreadsheetApp.openById("15zWq6frkb-ghUprdpDoKsAjmvpCkRv3rQKngO4jPrH4");
+  const analysis_spreadsheet = SpreadsheetApp.openById("YOUR_ANALYSIS_SPREADSHEET_ID");
   const holidays_sheet = analysis_spreadsheet.getSheetByName("Holidays");
 
   const scriptProperties = PropertiesService.getScriptProperties();
