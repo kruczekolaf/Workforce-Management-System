@@ -7,19 +7,19 @@ Dieses Repository enthält ein **Workforce Management System**, das auf **Google
 ## 📁 Projektstruktur
 
 Workforce-Management-System/
-├── Work_Areas/ # Verzeichnis für die 'Work Areas' Tabelle
-│ ├── Work_Areas_Script.gs # Apps Script für 'Work Areas'
-│ └── work_areas.xlsx # Excel-Datei mit den Arbeitsbereichen
-├── Analysis/ # Verzeichnis für die 'Analysis' Tabelle
-│ ├── Analysis_Script.gs # Apps Script für 'Analysis'
-│ └── analysis.xlsx # Excel-Datei mit den Analyse-Daten
-├── Scheduling/ # Verzeichnis für die 'Scheduling' Tabelle
-│ ├── Scheduling_Script.gs # Apps Script für 'Scheduling'
-│ └── scheduling.xlsx # Excel-Datei mit den Schichtdaten
-├── Late_Shifts/ # Verzeichnis für die 'Late Shifts' Tabelle
-│ ├── Late_Shifts_Script.gs # Apps Script für 'Late Shifts'
-│ └── late_shifts.xlsx # Excel-Datei mit den späten Schichten
-└── README.md 
+├── Work_Areas/
+│   ├── Work_Areas_Scripts.gs
+│   └── work_areas.xlsx
+├── Analysis/
+│   ├── Analysis_Scripts.gs
+│   └── analysis.xlsx
+├── Scheduling/
+│   ├── Scheduling_Scripts.gs
+│   └── scheduling.xlsx
+├── Late_Shifts/
+│   ├── Late_Shifts_Scripts.gs
+│   └── late_shifts.xlsx
+└── README.md
 
 
 ---
