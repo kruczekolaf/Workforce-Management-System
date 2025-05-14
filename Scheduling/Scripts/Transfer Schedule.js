@@ -8,14 +8,14 @@ function transfer_into_analysis() {
   );
 
   if (response == ui.Button.YES) {
-    const schedule_spreadsheet = SpreadsheetApp.openById("1Hw1RQdfN0TQ1NtSzwc9Qhnp0X_7sprhllYQCXEuuNxo");
+    const schedule_spreadsheet = SpreadsheetApp.openById("YOUR_SCHEDULING_SPREADSHEET_ID");
     const schedule_sheet = schedule_spreadsheet.getSheetByName("Schedule");
 
     const sector1 = schedule_sheet.getRange("B3:I19").getValues();
     const sector2 = schedule_sheet.getRange("B22:I33").getValues();
 
 
-    const analysis_spreadsheet = SpreadsheetApp.openById("15zWq6frkb-ghUprdpDoKsAjmvpCkRv3rQKngO4jPrH4");
+    const analysis_spreadsheet = SpreadsheetApp.openById("YOUR_ANALYSIS_SPREADSHEET_ID");
     const analysis_sheet = analysis_spreadsheet.getSheetByName("Analysis");
 
 
