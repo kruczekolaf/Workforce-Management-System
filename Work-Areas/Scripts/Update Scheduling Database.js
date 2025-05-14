@@ -1,5 +1,5 @@
 function update_scheduling_database() {
-  var source_sheet = SpreadsheetApp.openById("1qvOVi5Jk86jJyvtUq4Nh0UBAo0ToaC-Zr-qk780atnw");
+  var source_sheet = SpreadsheetApp.openById("YOUR_WORKAREAS_SPREADSHEET_ID");
   var areas_table = source_sheet.getSheetByName("Areas");
 
   let last_row = areas_table.getLastRow();
@@ -16,7 +16,7 @@ function update_scheduling_database() {
     all_employees.push(cellValue);
   }
 
-  const scheduling_sheet = SpreadsheetApp.openById("1Hw1RQdfN0TQ1NtSzwc9Qhnp0X_7sprhllYQCXEuuNxo");
+  const scheduling_sheet = SpreadsheetApp.openById("YOUR_SCHEDULING_SPREADSHEET_ID");
   const database_table = scheduling_sheet.getSheetByName("Database");
 
   database_table.getRange("A2:N1000").clearContent();
