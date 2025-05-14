@@ -1,6 +1,6 @@
 function delete_from_late_shifts() {
 
-  const late_shifts_Spreadsheet = SpreadsheetApp.openById("1QOCfPM3WSUStDEt8qlLdVzG2cTUVEynzMnDYNDIzwvI");
+  const late_shifts_Spreadsheet = SpreadsheetApp.openById("YOUR_LATESHIFTS_SPREADSHEET_ID");
   const late_shifts_sheet = late_shifts_Spreadsheet.getSheetByName("Late Shifts Year");
 
   const scriptProperties = PropertiesService.getScriptProperties();
