@@ -11,7 +11,7 @@ function trail_countdown() {
     }
   }
 
-  for(n = 3; n < areas_sheet.getLastRow(); n++) {
+  for(n = 3; n <= areas_sheet.getLastRow(); n++) {
     var trial_day = areas_sheet.getRange(n, 15).getValue();
 
     if(trial_day == 0){
@@ -22,5 +22,4 @@ function trail_countdown() {
     }
     areas_sheet.getRange(n, 15).setValue(trial_day);
   }
-  areas_sheet.getRange(empty_cell, 15).setValue(trial_day);
 }
