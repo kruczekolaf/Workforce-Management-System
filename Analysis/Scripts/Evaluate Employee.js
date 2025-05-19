@@ -1,7 +1,7 @@
 function employee_evaluation() {
   const spreadsheet = SpreadsheetApp.openById("YOUR_ANALYSIS_SPREADSHEET_ID");
-  const evaluation_sheet = spreadsheet .getSheetByName("Evaluation Employee");
-  const data_sheet = spreadsheet .getSheetByName("Data");
+  const evaluation_sheet = spreadsheet.getSheetByName("Evaluation Employee");
+  const data_sheet = spreadsheet.getSheetByName("Data");
 
   const employee = evaluation_sheet.getRange("A2").getValue();
   evaluation_sheet.getRange("D2").setValue(employee);
